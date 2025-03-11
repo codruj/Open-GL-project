@@ -1,0 +1,30 @@
+# Ignore CMake build directories
+/build/
+/cmake-build-*/
+
+# Ignore build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.bin
+*.d
+
+# IDE-specific
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Optional: ignore audio or large binary assets if not needed in repo
+*.caf
+
+# Ignore test logs
+Testing/
+
